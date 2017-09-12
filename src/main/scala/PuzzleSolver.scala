@@ -1,6 +1,6 @@
 class PuzzleSolver {
-    //main method that runs things
-    def main(array: Array[String]): Unit ={
+    //main method that runs everything
+    def main(args: Array[String])={
       //the total that is required for each row
       val total = 38
 
@@ -37,6 +37,15 @@ class PuzzleSolver {
       var hexagon3 = Array(r11,r12,r13,r14,r15)
 
       //prints out one hexagon
+      var outerloop = 0
+      var innerloop = 0
+      while(outerloop<hexagon.length){
+        while(innerloop<hexagon(outerloop).length){
+          print(0 + " ")
+          innerloop+1
+        }
+        outerloop+1
+      }
 
     }
 }
