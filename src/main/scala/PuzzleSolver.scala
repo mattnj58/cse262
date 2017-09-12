@@ -1,5 +1,8 @@
+import java.util.Random
 //Matthew Wong
-//
+//CSE 262
+//Puzzle Solver
+
 
 object PuzzleSolver {
   //main method that runs everything
@@ -9,6 +12,9 @@ object PuzzleSolver {
 
     //An array of all the numbers that will be added to the hexagon
     var numbers = Array(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19)
+
+    //an array of numbers that have been used
+    var used = Array[Int](19)
 
     //all the variables for the numbers in the hexagon
     val a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s: Int =0
@@ -39,19 +45,18 @@ object PuzzleSolver {
     var hexagon2 = Array(r6,r7,r8,r9,r10)
     var hexagon3 = Array(r11,r12,r13,r14,r15)
 
-    var counter: Int=0
-
-    //system of equations
-    a+b+c
+    var counter = 0
 
     //prints out the first hexagon
     var outerloop = 0
     var innerloop = 0
     while(outerloop<hexagon.length){
       while(innerloop<hexagon(outerloop).length){
-        innerloop=innerloop+1
-        hexagon(outerloop)(innerloop) = numbers(counter)
+        var r =
+        hexagon(outerloop)(innerloop) = numbers(r)
+        print(numbers(counter) + " ")
         counter = counter+1
+        innerloop=innerloop+1
       }
       innerloop = 0
       outerloop=outerloop+1
