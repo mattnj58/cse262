@@ -1,4 +1,7 @@
-class PuzzleSolver {
+//Matthew Wong
+//
+
+object PuzzleSolver {
     //main method that runs everything
     def main(args: Array[String])={
       //the total that is required for each row
@@ -36,16 +39,17 @@ class PuzzleSolver {
       var hexagon2 = Array(r6,r7,r8,r9,r10)
       var hexagon3 = Array(r11,r12,r13,r14,r15)
 
+
+
       //prints out one hexagon
       var outerloop = 0
       var innerloop = 0
       while(outerloop<hexagon.length){
         while(innerloop<hexagon(outerloop).length){
-          print(0 + " ")
-          innerloop+1
+          println(0)
+          innerloop=innerloop+1
         }
-        outerloop+1
+        outerloop=outerloop+1
       }
-
     }
 }
