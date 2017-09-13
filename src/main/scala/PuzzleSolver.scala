@@ -52,10 +52,9 @@ object PuzzleSolver {
     var innerloop = 0
     while(outerloop<hexagon.length){
       while(innerloop<hexagon(outerloop).length){
-        var r =
         hexagon(outerloop)(innerloop) = numbers(r)
         print(numbers(counter) + " ")
-        counter = counter+1
+        //counter = counter+1
         innerloop=innerloop+1
       }
       innerloop = 0
@@ -63,4 +62,6 @@ object PuzzleSolver {
       println(" ")
     }
   }
+
+  def sum
 }
