@@ -3,6 +3,7 @@ import java.util.Random
 //CSE 262
 //Puzzle Solver
 
+import java.util.Random
 
 object PuzzleSolver {
   //main method that runs everything
@@ -47,14 +48,35 @@ object PuzzleSolver {
 
     var counter = 0
 
-    //prints out the first hexagon
+    //Uses a random number generator to make pick numbers
+    var rand = Math.random()
+
+    //checks if the number has been used
+    var check:Boolean = false
+    var usedIndex =0
+
+    //prints out the first hexagon with random numbers
     var outerloop = 0
     var innerloop = 0
+    //goes through each row
     while(outerloop<hexagon.length){
+      //goes within each row
       while(innerloop<hexagon(outerloop).length){
-        hexagon(outerloop)(innerloop) = numbers(r)
+        //determines if the number has been used
+        while(!check)
+          //goes through the list of used numbers to determine if used
+          while(usedIndex<used.length){
+            if(rand==used(usedIndex)){
+              rand=Math.random()
+            }else{
+              hexagon(outerloop)(innerloop) = rand
+              print(rand + "")
+              check = true
+            }
+            usedIndex=usedIndex+1
+          }
         print(numbers(counter) + " ")
-        //counter = counter+1
+        counter = counter+1
         innerloop=innerloop+1
       }
       innerloop = 0
@@ -62,6 +84,4 @@ object PuzzleSolver {
       println(" ")
     }
   }
-
-  def sum
 }
