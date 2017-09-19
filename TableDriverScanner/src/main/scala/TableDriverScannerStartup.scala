@@ -94,5 +94,3 @@ import scala.io.Source
       t = nexttoken
     }
   }
-
-}
