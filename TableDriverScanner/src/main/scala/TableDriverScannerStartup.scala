@@ -58,7 +58,7 @@ import scala.io.Source
     def unreadchars(n:Int) = { i -= n }
 
     // Read in scan_tab and token_tab from a file
-    var scan_tab = Array[Array[State]]()
+    var scan_tab = Array.ofDim[State](19)
     var token_tab = new Array[String](19)
     // Fill in code to read in the tables from table.txt
 
