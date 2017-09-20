@@ -1778,9 +1778,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.16!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 325ms :: artifacts dl 19ms
-[debug] 	report for default#tabledriverscanner$sbt_2.10;1.0 default produced in C:\Users\Matt Wong\Lehigh\cse262\cse262\TableDriverScanner\target\scala-2.12\resolution-cache\reports\default-tabledriverscanner$sbt_2.10-default.xml
-[debug] 	resolve done (325ms resolve - 19ms download)
+[debug] :: resolution report :: resolve 3664ms :: artifacts dl 205ms
+[debug] 	report for default#tabledriverscanner$sbt_2.10;1.0 default produced in C:\Users\mattw\Lehigh\cse262\cse262\TableDriverScanner\target\scala-2.12\resolution-cache\reports\default-tabledriverscanner$sbt_2.10-default.xml
+[debug] 	resolve done (3664ms resolve - 205ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#tabledriverscanner$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2458,6 +2458,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#tracking;0.13.16!tracking.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.16!test-agent.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.16!command.jar(src)
-[debug] :: resolution report :: resolve 106ms :: artifacts dl 29ms
-[debug] 	report for default#tabledriverscanner$sources_2.10;1.0 default produced in C:\Users\Matt Wong\Lehigh\cse262\cse262\TableDriverScanner\target\scala-2.12\resolution-cache\reports\default-tabledriverscanner$sources_2.10-default.xml
-[debug] 	resolve done (106ms resolve - 29ms download)
+[debug] :: resolution report :: resolve 425ms :: artifacts dl 61ms
+[debug] 	report for default#tabledriverscanner$sources_2.10;1.0 default produced in C:\Users\mattw\Lehigh\cse262\cse262\TableDriverScanner\target\scala-2.12\resolution-cache\reports\default-tabledriverscanner$sources_2.10-default.xml
+[debug] 	resolve done (425ms resolve - 61ms download)
