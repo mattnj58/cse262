@@ -48,7 +48,7 @@ import scala.io.Source
     case class ScanTabCell(var action:Action, var new_state:State)
 
     // Read in entire test file into a single string
-    val source = io.Source.fromFile("testexpr.txt").getLines.toList.mkString("\n")
+    val source = io.Source.fromFile("src/main/testexpr.txt").getLines.toList.mkString("\n")
     println(source)
     println
 
@@ -58,10 +58,45 @@ import scala.io.Source
     def unreadchars(n:Int) = { i -= n }
 
     // Read in scan_tab and token_tab from a file
+    var scan_tab = Array[Array[State]]()
+    var token_tab = new Array[String](19)
     // Fill in code to read in the tables from table.txt
 
-    for(line <- Source.fromFile("table.txt").getLines()) {
-      print(line)
+    //reads in the file and puts the last thing in the string in token_tab
+    var lineNumber = 0
+    var colnumber = 1
+    for(line <- Source.fromFile("src/main/table.txt").getLines()) {
+      var row = line.split("\\s+")
+
+      //puts the token in the table into the token_tab
+      token_tab(lineNumber) = row.last
+
+      //puts the rest of the table into the scan_tab
+      var outloop = 0
+      var innerloop = 0
+      while(outloop < 18){
+        while(innerloop < 15){
+          scan_tab(outloop)(innerloop) = line(innerloop)
+          colnumber= colnumber +1
+          innerloop= innerloop+1
+        }
+        outloop = outloop+1
+        lineNumber = lineNumber + 1
+
+      }
+
+    }
+
+    var outloop=0
+    var innerloop=0
+    while(outloop<18){
+      while(innerloop<15)
+      {
+        print(scan_tab(outloop)(innerloop))
+        println(" ")
+        innerloop = innerloop +1
+      }
+      outloop= outloop+1
     }
 
     // Main method (called by the parser) to get the next token
@@ -87,10 +122,11 @@ import scala.io.Source
       }*/
     }
 
+    /*
     // Test program
     var t = nexttoken
     while (t != eof) {
       println(t)
       t = nexttoken
-    }
+    }*/
   }
