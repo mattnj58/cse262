@@ -4,7 +4,7 @@
 		module="tabledriverscanner$sources_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170920142621"
+		publication="20170921105242"
 	/>
 	<configurations>
 		<conf name="default" visibility="public" description=""/>

@@ -4,7 +4,7 @@
 		module="tabledriverscanner$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20170920142617"
+		publication="20170921105240"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>
