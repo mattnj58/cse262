@@ -64,18 +64,25 @@ object TableDrivenScanner extends App {
 
 //  val lines = Source.fromFile("src/main/table.txt").getLines().toList
   var tokenIndex = 0
+  var state:State = 1
+//  var action:Action = null
   for(row <- Source.fromFile("src/main/table.txt").getLines()){
     token_tab(tokenIndex)=(row.length-1).toString
     var cell = row.split("\\s+")
     for(scancell <- cell){
       if(scancell.toInt>0){
-        State
-        ScanTabCell(Move, scancell)
+        state = scancell.toInt
+        //action = Move
+        ScanTabCell(Move, state)
+      } else if(scancell.toInt==0){
+        state = scancell.toInt
+        ScanTabCell(Recognize,state)
       }
     }
     tokenIndex= tokenIndex +1
   }
 
+  /*
   for(line <- 0 to 14) {
     var row = lines(line).split("\\s+").map(cell => cell.toInt).toList
 
@@ -91,6 +98,7 @@ object TableDrivenScanner extends App {
   def scan_tab(char: Char, state: State): State ={
 
   }
+  */
 
 
   // Main method (called by the parser) to get the next token
