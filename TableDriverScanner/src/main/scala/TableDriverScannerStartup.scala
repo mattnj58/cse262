@@ -101,12 +101,16 @@ object TableDrivenScanner extends App {
   */
 
 
+  def scan_tab(ch:Char, state: State):ScanTabCell ={
+    ScanTabCell(Move,state)
+  }
+
   // Main method (called by the parser) to get the next token
   def nexttoken = {
 
     // The code for the algorithm in Fig 2.11 goes in here
-    var tok:Token =0
-    var cur_char:Char = 'l'
+
+    var cur_char:Char = null
     var rememebered_char:List[Char]=null
 
     //checks if there is a comment string to ignore.... needs to implement the loop
@@ -123,18 +127,16 @@ object TableDrivenScanner extends App {
      while(source != EOF){
        scan_tab(cur_char, cur_state).action match{
          case Move => if(cur_char != 0) {
-
          }
        }
      }
     }
   }
 
-  /*
   // Test program
   var t = nexttoken
   while (t != eof) {
     println(t)
     t = nexttoken
-  }*/
+  }
 }
