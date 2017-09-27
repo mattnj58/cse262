@@ -64,18 +64,25 @@ object TableDrivenScanner extends App {
 
 //  val lines = Source.fromFile("src/main/table.txt").getLines().toList
   var tokenIndex = 0
+  var state:State = 1
+//  var action:Action = null
   for(row <- Source.fromFile("src/main/table.txt").getLines()){
     token_tab(tokenIndex)=(row.length-1).toString
     var cell = row.split("\\s+")
     for(scancell <- cell){
       if(scancell.toInt>0){
-        State
-        ScanTabCell(Move, scancell)
+        state = scancell.toInt
+        //action = Move
+        ScanTabCell(Move, state)
+      } else if(scancell.toInt==0){
+        state = scancell.toInt
+        ScanTabCell(Recognize,state)
       }
     }
     tokenIndex= tokenIndex +1
   }
 
+  /*
   for(line <- 0 to 14) {
     var row = lines(line).split("\\s+").map(cell => cell.toInt).toList
 
@@ -91,14 +98,19 @@ object TableDrivenScanner extends App {
   def scan_tab(char: Char, state: State): State ={
 
   }
+  */
 
+
+  def scan_tab(ch:Char, state: State):ScanTabCell ={
+    ScanTabCell(Move,state)
+  }
 
   // Main method (called by the parser) to get the next token
   def nexttoken = {
 
     // The code for the algorithm in Fig 2.11 goes in here
-    var tok:Token =0
-    var cur_char:Char = 'l'
+
+    var cur_char:Char = null
     var rememebered_char:List[Char]=null
 
     //checks if there is a comment string to ignore.... needs to implement the loop
@@ -115,18 +127,16 @@ object TableDrivenScanner extends App {
      while(source != EOF){
        scan_tab(cur_char, cur_state).action match{
          case Move => if(cur_char != 0) {
-
          }
        }
      }
     }
   }
 
-  /*
   // Test program
   var t = nexttoken
   while (t != eof) {
     println(t)
     t = nexttoken
-  }*/
+  }
 }
