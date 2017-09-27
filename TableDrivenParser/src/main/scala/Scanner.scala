@@ -1,3 +1,5 @@
+import scala.io.Source
+
 /*
     Description: Ad hoc scanner for the calculator language in PLP, 4th Ed
     Author: J. Femister
@@ -47,6 +49,30 @@ class Scanner(path:String) {
 
   // Prime the pump
   var cur_char = nextchar
+
+  //Type creates the types for terminal stuff
+  type terminal = Int
+  type non_terminal = Int
+  type symbol = Int
+  type production = Int
+
+  //Arrays for production things and the parse table
+  var production_table = new Array[String](11)
+  var parse_table = Array.ofDim[Int](11,14)
+
+  //reads in the table
+  var read_in = io.Source.fromFile("src/main/calculatorparsetable.txt").getLines.map(line=>line.split("\\s+").toList).toList
+
+  //takes the production words and assign it to the production_table
+  for(row <- 0 until read_in.length){
+
+    production_table(row) = read_in(row)(0)
+
+    //takes the 
+    for(column <- 0 until read_in(0).length){
+      parse_table(row)(column) = read_in(row)(column).toInt
+    }
+  }
 
   // Main method (called by the parser) to get the next token
   def nexttoken:Token = {
