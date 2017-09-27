@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/scala/Scanner.scala" line="72" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/scala/Scanner.scala" line="80" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc4ed093-64f4-4914-824c-386f6671f6f9" name="Default" comment="" />
@@ -30,8 +30,8 @@
       <file leaf-file-name="Scanner.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Scanner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="1386">
+              <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -40,8 +40,8 @@
       <file leaf-file-name="TableDriverScannerStartup.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../TableDriverScanner/src/main/scala/TableDriverScannerStartup.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+            <state relative-caret-position="-1815">
+              <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/TableDrivenParser.scala" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_TableDrivenParser.zip/TableDrivenParser/TableDrivenParser.scala" />
         <option value="$PROJECT_DIR$/src/main/calculatorproductions.txt" />
-        <option value="$PROJECT_DIR$/../TableDriverScanner/src/main/scala/TableDriverScannerStartup.scala" />
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_TableDrivenScannerStartup (1).zip/TableDrivenScannerStartup/TableDrivenScanner.scala" />
+        <option value="$PROJECT_DIR$/../TableDriverScanner/src/main/scala/TableDriverScannerStartup.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Scanner.scala" />
       </list>
     </option>
@@ -594,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TableDriverScanner/src/main/scala/TableDriverScannerStartup.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/calculatorparsetable.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -610,10 +602,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../TableDriverScanner/src/main/scala/TableDriverScannerStartup.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1815">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Scanner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="1386">
+          <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="2" selection-end-line="65" selection-end-column="2" />
           <folding />
         </state>
       </provider>

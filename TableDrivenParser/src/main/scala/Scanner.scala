@@ -22,6 +22,10 @@ case object Write extends Token // keyword
 case class Id(i:String) extends Token
 case class Number(n:String) extends Token
 
+abstract class Action
+case object predict extends Action
+case object Error extends Action
+
 case object Skip extends Token
 case class ScannerError(mess:String) extends Token
 case object Eof extends Token
@@ -55,7 +59,11 @@ class Scanner(path:String) {
   type non_terminal = Int
   type symbol = Int
   type production = Int
+  type State = Int
 
+  //case that implements ScanTabCell from TableDrivenScanner
+  case class ScanTabCell(var action:Action, var new_state:State)
+  
   //Arrays for production things and the parse table
   var production_table = new Array[String](11)
   var parse_table = Array.ofDim[Int](11,14)
@@ -68,7 +76,7 @@ class Scanner(path:String) {
 
     production_table(row) = read_in(row)(0)
 
-    //takes the 
+    //takes the table and populates the parse table
     for(column <- 0 until read_in(0).length){
       parse_table(row)(column) = read_in(row)(column).toInt
     }
