@@ -79,6 +79,7 @@ class Scanner(path:String) {
     //takes the table and populates the parse table
     for(column <- 0 until read_in(0).length){
       parse_table(row)(column) = read_in(row)(column).toInt
+
     }
   }
 
