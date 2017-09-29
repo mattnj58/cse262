@@ -23,7 +23,7 @@ case class Id(i:String) extends Token
 case class Number(n:String) extends Token
 
 abstract class Action
-case object predict extends Action
+case object Predict extends Action
 case object Error extends Action
 
 case object Skip extends Token
@@ -79,7 +79,11 @@ class Scanner(path:String) {
     //takes the table and populates the parse table
     for(column <- 0 until read_in(0).length){
       parse_table(row)(column) = read_in(row)(column).toInt
-
+      if(read_in(row)(column).toInt < 0){
+        ScanTabCell(Predict, read_in(row)(column).toInt)
+      } else{
+        ScanTabCell(Error, read_in(row)(column).toInt)
+      }
     }
   }
 
