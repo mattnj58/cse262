@@ -62,7 +62,7 @@ class Scanner(path:String) {
   type State = Int
 
   //case that implements ScanTabCell from TableDrivenScanner
-  case class ScanTabCell(var action:Action, var new_state:State)
+  case class ParseTabCell(var action:Action, var new_state:State)
   
   //Arrays for production things and the parse table
   var production_table = new Array[String](11)
@@ -77,12 +77,12 @@ class Scanner(path:String) {
     production_table(row) = read_in(row)(0)
 
     //takes the table and populates the parse table
-    for(column <- 0 until read_in(0).length){
+    for(column <- 0 until read_in(0).head.toInt){
       parse_table(row)(column) = read_in(row)(column).toInt
       if(read_in(row)(column).toInt < 0){
-        ScanTabCell(Predict, read_in(row)(column).toInt)
+        ParseTabCell(Predict, read_in(row)(column).toInt)
       } else{
-        ScanTabCell(Error, read_in(row)(column).toInt)
+        ParseTabCell(Error, read_in(row)(column).toInt)
       }
     }
   }
