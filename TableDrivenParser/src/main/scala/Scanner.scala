@@ -65,26 +65,30 @@ class Scanner(path:String) {
   case class ParseTabCell(var action:Action, var new_state:State)
   
   //Arrays for production things and the parse table
-  var production_table = new Array[String](11)
+  var production_table = List[String]
   var parse_table = Array.ofDim[Int](11,14)
 
   //reads in the table
-  var read_in = io.Source.fromFile("src/main/calculatorparsetable.txt").getLines.map(line=>line.split("\\s+").toList).toList
+  var parseTable = io.Source.fromFile("src/main/calculatorparsetable.txt").getLines.map(line=>line.split("\\s+").toList).toList
 
-  //takes the production words and assign it to the production_table
-  for(row <- 0 until read_in.length){
-
-    production_table(row) = read_in(row)(0)
-
-    //takes the table and populates the parse table
-    for(column <- 0 until read_in(0).head.toInt){
-      parse_table(row)(column) = read_in(row)(column).toInt
-      if(read_in(row)(column).toInt < 0){
-        ParseTabCell(Predict, read_in(row)(column).toInt)
+  //takes the parse table and populates the parse_table with it without the nonterminals
+  for(row <- 0 until parseTable.length){
+    for(column <- 1 until parseTable(0).head.toInt){
+      parse_table(row)(column) = parseTable(row)(column).toInt
+      if(parseTable(row)(column).toInt > 0){
+        ParseTabCell(Predict, parseTable(row)(column).toInt)
       } else{
-        ParseTabCell(Error, read_in(row)(column).toInt)
+        ParseTabCell(Error, parseTable(row)(column).toInt)
       }
     }
+  }
+
+  //reads in the calculator productions file
+  var productionTable = io.Source.fromFile("src/main/calculatorproductions.txt").getLines
+
+  //"parses" the production table so that it means something
+  for(row <- 0 until productionTable.length){
+    productionTable = production_table(row)
   }
 
   // Main method (called by the parser) to get the next token
