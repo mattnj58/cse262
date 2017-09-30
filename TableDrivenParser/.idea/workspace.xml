@@ -32,8 +32,8 @@
       <file leaf-file-name="Scanner.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Scanner.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+            <state relative-caret-position="623">
+              <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -477,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506660229496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="read in the production table... not fully populatedd">
+      <created>1506736740947</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1506736740947</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -523,7 +530,8 @@
     <MESSAGE value="no changes really" />
     <MESSAGE value="maybe did the thing right" />
     <MESSAGE value="changed the naming" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the naming" />
+    <MESSAGE value="read in the production table... not fully populatedd" />
+    <option name="LAST_COMMIT_MESSAGE" value="read in the production table... not fully populatedd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -768,8 +776,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Scanner.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="90" column="19" lean-forward="false" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        <state relative-caret-position="623">
+          <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
           <folding />
         </state>
       </provider>

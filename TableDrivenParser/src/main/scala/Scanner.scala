@@ -65,7 +65,7 @@ class Scanner(path:String) {
   case class ParseTabCell(var action:Action, var new_state:State)
   
   //Arrays for production things and the parse table
-  var production_table = List[String]
+  var production_table = new Array[String](11)
   var parse_table = Array.ofDim[Int](11,14)
 
   //reads in the table
@@ -84,11 +84,11 @@ class Scanner(path:String) {
   }
 
   //reads in the calculator productions file
-  var productionTable = io.Source.fromFile("src/main/calculatorproductions.txt").getLines
+  var productionTable = io.Source.fromFile("src/main/calculatorproductions.txt").getLines.map(line=>line.split("\\s+").toList).toList
 
   //"parses" the production table so that it means something
   for(row <- 0 until productionTable.length){
-    productionTable = production_table(row)
+    production_table(row) = productionTable(row).toString()
   }
 
   // Main method (called by the parser) to get the next token
