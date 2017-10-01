@@ -88,7 +88,23 @@ class Scanner(path:String) {
 
   //"parses" the production table so that it means something
   for(row <- 0 until productionTable.length){
-    production_table(row) = productionTable(row).toString()
+    for(column <- productionTable(0).length to 1){
+      production_table(row) = productionTable(row)(column)
+    }
+  }
+
+  //creates the parse_stack
+  var sizeOfStack:Int = 10
+  var parse_stack = new Array[String](sizeOfStack)
+
+  //increases the size of the stack if the stack runs out of room
+  def increaseStack(parse_stack:Array[String]): Unit= {
+    var oldSize = parse_stack.length
+    var newSize= oldSize*2
+    var newparse_stack = new Array[String](newSize)
+    for(i <- parse_stack.length){
+      parse_stack(i) = newparse_stack(i)
+    }
   }
 
   // Main method (called by the parser) to get the next token
