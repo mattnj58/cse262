@@ -95,9 +95,9 @@ class Scanner(path:String) {
 
   //creates the parse_stack
   var sizeOfStack:Int = 10
-  var parse_stack = new Array[String](sizeOfStack)
+  var parse_stack = new Array[symbol](sizeOfStack)
 
-  //increases the size of the stack if the stack runs out of room
+  //doubles the size of the stack if the stack runs out of room
   def increaseStack(parse_stack:Array[String]): Unit= {
     var oldSize = parse_stack.length
     var newSize= oldSize*2
@@ -107,11 +107,24 @@ class Scanner(path:String) {
     }
   }
 
+  //reads in the average.txt and divides it
+  var input = io.Source.fromFile("src/main/average.txt").getLines().map(line=>line.split("\\s+").toList).toList
+
   // Main method (called by the parser) to get the next token
   def nexttoken:Token = {
 
     // Auxiliary method to recognize a token, including the skip
-    // "pseudo" token
+    // "pseudo" token and code
+
+    //starts with the program symbol in the stack
+    var start_symbol = production_table(0)
+    parse_stack(0) = start_symbol
+    print(parse_stack)
+
+
+    //reads the input and parses using the LL parsing method
+    var expected_symbol: symbol = parse_stack(0)
+
     def gettoken = {
 
       // Utility method for accumulating a string of digits
