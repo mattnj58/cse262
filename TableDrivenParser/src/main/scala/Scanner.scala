@@ -85,17 +85,19 @@ class Scanner(path:String) {
 
   //reads in the calculator productions file
   var productionTable = io.Source.fromFile("src/main/calculatorproductions.txt").getLines.map(line=>line.split("\\s+").toList).toList
+  var symbolprod_tab = List[symbol]
 
   //"parses" the production table so that it means something
   for(row <- 0 until productionTable.length){
     for(column <- productionTable(0).length to 1){
       production_table(row) = productionTable(row)(column)
+      production_table.map(production_table(row) => symbolprod_tab)
     }
   }
 
   //creates the parse_stack
   var sizeOfStack:Int = 10
-  var parse_stack = new Array[symbol](sizeOfStack)
+  var parse_stack = new Array[String](sizeOfStack)
 
   //doubles the size of the stack if the stack runs out of room
   def increaseStack(parse_stack:Array[String]): Unit= {
@@ -123,7 +125,9 @@ class Scanner(path:String) {
 
 
     //reads the input and parses using the LL parsing method
-    var expected_symbol: symbol = parse_stack(0)
+    while()
+      var expected_symbol: String = parse_stack(0)
+
 
     def gettoken = {
 
