@@ -91,7 +91,6 @@ class Scanner(path:String) {
   for(row <- 0 until productionTable.length){
     for(column <- productionTable(0).length to 1){
       production_table(row) = productionTable(row)(column)
-      production_table.map(production_table(row) => symbolprod_tab)
     }
   }
 
@@ -123,10 +122,30 @@ class Scanner(path:String) {
     parse_stack(0) = start_symbol
     print(parse_stack)
 
-
     //reads the input and parses using the LL parsing method
-    while()
-      var expected_symbol: String = parse_stack(0)
+    while(nexttoken != Eof) {
+      var expected_token: String = parse_stack(parse_stack.length - 1)
+      for(row<-production_table.length){
+        expected_token match{
+          case program => expected_token match{
+            case Id.toString => println(expected_token)
+            case Read.toString => println(expected_token)
+            case Write.toString => println(expected_token)
+          }
+          case stmt_list => expected_token match {
+            case Id.toString => println(expected_token)
+            case Read.toString => println(expected_token)
+            case Write.toString => println(expected_token)
+            case $$ => println("$$")
+          }
+            /*
+          case stmt => expected_token match {
+
+          }
+          */
+        }
+      }
+    }
 
 
     def gettoken = {
