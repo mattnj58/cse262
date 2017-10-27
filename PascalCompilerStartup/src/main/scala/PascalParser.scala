@@ -2,8 +2,8 @@
     Parser and AST builder for Pascal Compiler project
     CSE 262 - Programming Languages
     Fall 2017
-    Name:
-    Email:
+    Name: Matthew Wong
+    Email: myw219
 */
 
 import scala.util.parsing.combinator._

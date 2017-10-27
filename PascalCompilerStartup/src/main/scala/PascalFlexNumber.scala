@@ -2,7 +2,7 @@
     FlexNumber class for Pascal Compiler
     CSE 262 - Programming Languages
     Fall 2017
-    J. Femister
+    Matthew Wong
 */
 
 case class FlexNumber(str:String) {

@@ -1,6 +1,6 @@
 program test(input, output);
-const c1=1; c2=2; c3=3
-var a, b, c, d : integer
+const c1=1; c2=2; c3=3;
+var a, b, c, d : integer;
 begin
   a := 10;
   b := 11;

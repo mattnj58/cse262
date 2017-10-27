@@ -2,7 +2,7 @@
     Scanner for Pascal Compiler project
     CSE 262 - Programming Languages
     Fall 2017
-    J. Femister
+    Matthew Wong
 
     Version 1.0 - Initial release
 */
