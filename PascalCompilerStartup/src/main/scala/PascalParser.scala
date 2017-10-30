@@ -68,15 +68,15 @@ object PascalParser extends Parsers {
         case None ~ n => Constant("", n)
     }
 
-    def program: Parser[Program] = PROGRAMx ~ identifier ~ LPAREN ~ identifier_list ~ RPAREN ~ SEMICOLON ~ block ~ PERIOD ^^{
+    def program: Parser[Program] = PROGRAM ~ identifier ~ LPAREN ~ identifier_list ~ RPAREN ~ SEMICOLON ~ block ~ PERIOD ^^{
         case _~identifierx~_~identifier_listx~_~_~blockx~_ => {
             Program(identifierx, identifier_listx, blockx)
         }
     }
 
     def block: Parser[Block] = constant_definition_part ~ variable_declaration_part ~ statement_part ^^{
-        case constant_definition_part~variable_declaration_part~statement_part => {
-            Block(constant_definition_part, variable_declaration_part,statement_part)
+        case constant_definition_partx~variable_declaration_partx~statement_partx => {
+            Block(constant_definition_partx, variable_declaration_partx,statement_partx)
         }
     }
 
@@ -96,7 +96,11 @@ object PascalParser extends Parsers {
 
     def structured_statement: Parser[Statement] = conditional_statement | compound_statement | repetitive_statement | write_statement
 
-    def compound_statement: Parser[Statement] = BEGIN ~> statement_sequence <~ END
+    def compound_statement: Parser[Statement] = BEGIN ~> statement_sequence <~ END ^^ {
+        case statement_seq => {
+            CompoundStatement(statement_seq)
+        } 
+    }
 
     def repetitive_statement: Parser[Statement] = while_statement | repeat_statement | for_statement
 
@@ -105,14 +109,14 @@ object PascalParser extends Parsers {
     }
 
     def repeat_statement: Parser[Statement] = REPEAT ~ statement_sequence ~ UNTIL ~ expression ^^ {
-        case _~statement_sequence~_~expression => RepeatStatement(statement_sequence,expression);
+        case _~stateseq~_~expres => RepeatStatement(stateseq,expres);
     }
 
     def conditional_statement: Parser[Statement] = if_statement
 
     def for_statement: Parser[Statement] = FOR ~ identifier ~ ASSIGN ~ expression ~ (TO|DOWNTO) ~ expression ~ DO ~ statement ^^{
-        case _~identifier~_~expression~_~expression~_ ~statement=> {
-            ForStatement(identifier,expression,expression,statement)
+        case _~ident~_~assExpres~_~toExpress~_~doStat=> {
+            ForStatement(ident,assExpres, toExpress,doStat)
         }
     }
 
@@ -124,9 +128,8 @@ object PascalParser extends Parsers {
 
     def output_value: Parser[OutputValue] = expression ~ opt(COLON ~ expression ~opt(expression)) ^^{
         case e1 ~ None => OutputValue(e1,None,None)
-        case e2 ~ Some(COLON ~ e2 ~ None) => OutputValue(e1,Some(e2), None)
+        case e1 ~ Some(COLON ~ e2 ~ None) => OutputValue(e1,Some(e2), None)
         case e1 ~ e2 ~Some(COLON~e3)=> OutputValue(e1,Some(e2),Some(e3))
-        case _ => OutputValue(_,None,None)
     }
 
     def write_statement: Parser[Statement] = (WRITELN | WRITE) ~ LPAREN ~ repsep(output_value, COMMA) ~RPAREN ^^{
@@ -135,34 +138,37 @@ object PascalParser extends Parsers {
         }
     }
 
-    def expression: Parser[PascalASTNode] = expression ~ match{
-      case relational_operator => 
-      case simple_expression=>
+    def expression: Parser[PascalASTNode] = simple_expression ~ opt(relational_operator, simple_expression) ^^{
+        case simp_express ~ None => simp_express 
+        case simp_express ~ relate_op => Unop(simp_express, relate_op)
+        case simp_express ~ simp_express2 =>  AssignmentStatement(simp_express, simp_express2)
     }
-
+    
     def relational_operator: Parser[PascalASTNode] = EQUALS | NOTEQUALTO | LESSTHAN | LESSTHANOREQUALTO | GREATERTHAN | 
                                             GREATERTHANOREQUALTO | IN
 
     def simple_expression: Parser[PascalASTNode] = opt(sign) ~ term ~ rep(addition_operator, term) ^^{
-        case PLUS =>(PLUS ~ term ~ rep(addition_operator, term));
-        case MINUS=>(MINUS ~ term rep(addition_operator,term))
-        case None => 
+        case None ~ term ~ rep(addition_operator, term) =>iufgjnhsdf
     }
 
     def addition_operator: Parser[PascalASTNode] = PLUS | MINUS | OR
 
     def multiplication_operator: Parser[PascalASTNode] = TIMES|DIVIDE|DIV|MOD|AND
 
-    def term: Parser[PascalASTNode] = factor ~ 
+    def term: Parser[PascalASTNode] = factor ~ rep(multiplication_operator, factor) ^^ {
+        case tFact ~ => dfiohzdfihjkds
+    }
 
     def factor: Parser[PascalASTNode] = (LPAREN ~> expression <~ RPAREN) |number|variable ^^{
-        case _~expression~_ => 
+        case _~fExpress~_ => fExpress
+        case num => num
+        case vari => vari
     }
 
     def variable: Parser[PascalASTNode] = identifier
 
     def constant_definition_part: Parser[List[ConstDef]] = identifier_list ~ EQUALS ~ constant ^^ {
-        case identifier_list~_~constant => ConstDef(identifier_list,constant)
+        case ident_list~_~const => ConstDef(ident_list,const)
     }
 
     def constant_definition: Parser[ConstDef] = identifier ~ COLON ~ constant ^^ {
@@ -171,7 +177,11 @@ object PascalParser extends Parsers {
 
     def variable_declaration_part: Parser[List[VarDecl]] = rep1sep(variable_declaration,identifier)
 
-    def variable_declaration: Parser[VarDecl] = identifier_list ~ COLON ~ atype
+    def variable_declaration: Parser[VarDecl] = identifier_list ~ COLON ~ atype ^^{
+        case id_list ~ _ ~ vtype => {
+
+        } 
+    }
 
     def identifier_list: Parser[List[IDENTIFIER]] = rep(identifier)
 
