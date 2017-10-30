@@ -11,6 +11,11 @@ import java.sql.Statement
 import scala.util.parsing.combinator._
 import scala.util.parsing.input.{NoPosition, Position, Positional, Reader}
 
+// IF~ LPAREN ~ expression ~ opt (ELSE ~statement) ~repsep(expression, colon) =>
+// case _~ exp ~ opt
+//none
+//some(ELSE~statement)
+
 case class Program(name:IDENTIFIER, io:List[IDENTIFIER], blk:Block) extends PascalASTNode
 case class ConstDef(name:IDENTIFIER, value:Constant) extends PascalASTNode
 case class VarDecl(name:List[IDENTIFIER], typ:PascalType) extends PascalASTNode
@@ -156,5 +161,4 @@ object PascalParser extends Parsers {
             case Success(result, next) => result
         }
     }
-
 }
