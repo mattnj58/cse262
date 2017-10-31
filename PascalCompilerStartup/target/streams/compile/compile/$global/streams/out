@@ -1,103 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:112:60: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[Statement][0m
-[0m[[0m[31merror[0m] [0m[0m required: Statement[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~stateseq~_~expres => RepeatStatement(expres,stateseq) //stateseq is the incorrect type -> statement type[0m
-[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:118:36: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Some[A][0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~identx~_~assExpresx~Some(s)~toExpressx~_~doStatx=> {[0m
-[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:119:54: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : PascalASTNode[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m            ForStatement(identx,assExpresx, Some(s), toExpressx, doStatx)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:125:15: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~None~_~None => IfStatement(expression, None, None)[0m
-[0m[[0m[31merror[0m] [0m[0m              ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:125:29: pattern type is incompatible with expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalParser.Elem[0m
-[0m[[0m[31merror[0m] [0m[0m    (which expands to)  PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~None~_~None => IfStatement(expression, None, None)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:125:68: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
-[0m[[0m[31merror[0m] [0m[0m required: Statement[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~None~_~None => IfStatement(expression, None, None)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                   ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:125:74: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
-[0m[[0m[31merror[0m] [0m[0m required: Statement[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~None~_~None => IfStatement(expression, None, None)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:126:15: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~Some(se1)~_~None => IfStatement(expression,Some(se1), None)[0m
-[0m[[0m[31merror[0m] [0m[0m              ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:126:29: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Some[A][0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~Some(se1)~_~None => IfStatement(expression,Some(se1), None)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:126:83: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : None.type[0m
-[0m[[0m[31merror[0m] [0m[0m required: Statement[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~Some(se1)~_~None => IfStatement(expression,Some(se1), None)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:127:15: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~Some(se1)~_~Some(se2) =>IfStatement(expression,Some(se1), Some(se2))[0m
-[0m[[0m[31merror[0m] [0m[0m              ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:127:29: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Some[A][0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalToken[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~Some(se1)~_~Some(se2) =>IfStatement(expression,Some(se1), Some(se2))[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:127:91: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Some[Statement][0m
-[0m[[0m[31merror[0m] [0m[0m required: Statement[0m
-[0m[[0m[31merror[0m] [0m[0m        case _~expression~_~Some(se1)~_~Some(se2) =>IfStatement(expression,Some(se1), Some(se2))[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:132:17: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalASTNode[0m
-[0m[[0m[31merror[0m] [0m[0m        case e1 ~ None ~ None => OutputValue(e1, None , None) {[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:132:63: OutputValue does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m        case e1 ~ None ~ None => OutputValue(e1, None , None) {[0m
-[0m[[0m[31merror[0m] [0m[0m                                                              ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:147:27: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalASTNode[0m
-[0m[[0m[31merror[0m] [0m[0m        case simp_express ~ None ~ None => simp_express [0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:148:27: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalASTNode[0m
-[0m[[0m[31merror[0m] [0m[0m        case simp_express ~ relate_op ~ None => Unop(simp_express, relate_op)[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:149:27: constructor cannot be instantiated to expected type;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : a ~ b[0m
-[0m[[0m[31merror[0m] [0m[0m required: PascalASTNode[0m
-[0m[[0m[31merror[0m] [0m[0m        case simp_express ~ relate_op ~ simp_express2 =>  OutputValue(simp_express, opt(relate_op), simp_express2)[0m
-[0m[[0m[31merror[0m] [0m[0m                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:149:101: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Option[PascalASTNode ~ PascalASTNode][0m
-[0m[[0m[31merror[0m] [0m[0m required: Option[PascalASTNode][0m
-[0m[[0m[31merror[0m] [0m[0m        case simp_express ~ relate_op ~ simp_express2 =>  OutputValue(simp_express, opt(relate_op), simp_express2)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:183:45: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[IDENTIFIER][0m
-[0m[[0m[31merror[0m] [0m[0m required: IDENTIFIER[0m
-[0m[[0m[31merror[0m] [0m[0m        case ident_list~_~const => ConstDef(ident_list,const)[0m
-[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:194:30: not found: value vtype[0m
-[0m[[0m[31merror[0m] [0m[0m            VarDecl(id_list, vtype) //vtype is an incorrect variable type[0m
-[0m[[0m[31merror[0m] [0m[0m                             ^[0m
-[0m[[0m[31merror[0m] [0m[0m21 errors found[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:149:58: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case exps ~ Some(relate_up ~ none) => OutputValue(exps, Some(relate_up), None)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:175:14: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case fExpress => fExpress[0m
+[0m[[0m[33mwarn[0m] [0m[0m             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:176:21: unreachable code due to variable pattern 'fExpress' on line 175[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case num => num[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\PascalCompilerStartup\src\main\scala\PascalParser.scala:177:22: unreachable code due to variable pattern 'fExpress' on line 175[0m
+[0m[[0m[33mwarn[0m] [0m[0m        case vari => vari[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m

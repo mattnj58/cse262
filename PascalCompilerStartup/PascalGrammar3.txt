@@ -3,7 +3,7 @@ http://www.fit.vutbr.cz/study/courses/APR/public/ebnf.html
 
 
 program ::= "program" identifier "(" identifier-list ")" ";" block "."
-block ::= constant_definition_part variable_declaration_part statement_part
+    block ::= constant_definition_part variable_declaration_part statement_part
 
 constant_definition_part ::= "const" constant_definition ";" { constant_definition ";" }
 constant_definition ::= identifier "=" constant
