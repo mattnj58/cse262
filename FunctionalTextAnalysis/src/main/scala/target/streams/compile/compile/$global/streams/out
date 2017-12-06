@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:19:76: comparing values of types Array[String] and Int using `==' will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val record = file.foreach(line => (List(artist), songName, if (numone(1) == 0) false else true))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

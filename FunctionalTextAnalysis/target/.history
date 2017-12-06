@@ -6,3 +6,6 @@ run top40.sql
 run
 run top40.sql
 clear
+run top40.txt
+clear
+clean

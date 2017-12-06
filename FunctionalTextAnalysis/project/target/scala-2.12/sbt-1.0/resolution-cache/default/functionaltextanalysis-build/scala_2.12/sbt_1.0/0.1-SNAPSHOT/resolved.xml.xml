@@ -4,7 +4,7 @@
 		module="functionaltextanalysis-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171204174015"
+		publication="20171206150712"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
