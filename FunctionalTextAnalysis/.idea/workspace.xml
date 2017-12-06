@@ -2,75 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bff36dd-b290-45ed-91c7-8591f7827142" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/top40.sql" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" afterPath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PascalCompilerStartup/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDrivenParser/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_3_jar.xml" afterPath="$PROJECT_DIR$/../TableDrivenParser/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_3_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDrivenParser/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TableDrivenParser/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_3_jar.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_3_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/.idea/modules/tabledriverscanner-build.iml" afterPath="$PROJECT_DIR$/../TableDriverScanner/.idea/modules/tabledriverscanner-build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/.idea/modules/tabledriverscanner.iml" afterPath="$PROJECT_DIR$/../TableDriverScanner/.idea/modules/tabledriverscanner.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/default/tabledriverscanner-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/default/tabledriverscanner-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/default/tabledriverscanner-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/default/tabledriverscanner-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-compile-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-compile.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-docs.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-optional.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-plugin.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-pom.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-provided.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-runtime.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-scala-tool.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-sources.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-test-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-test.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/scala-2.10/sbt-0.13/resolution-cache/reports/default-tabledriverscanner-build-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../TableDriverScanner/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sbt_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sbt_2.10/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sbt_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sbt_2.10/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.10/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.10/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner$sources_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner_2.12/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner_2.12/1.0/resolved.xml.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner_2.12/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/default/tabledriverscanner_2.12/1.0/resolved.xml.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sbt_2.10-default.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sbt_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.10-default.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.10-default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-compile.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-docs.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-optional.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-plugin.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-pom.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-provided.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-runtime.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-sources.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-test.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner$sources_2.12-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-compile-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-compile.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-compile.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-docs.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-docs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-optional.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-optional.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-plugin.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-plugin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-pom.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-provided.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-provided.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-runtime-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-runtime.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-runtime.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-scala-tool.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-sources.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-sources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-test-internal.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-test.xml" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/scala-2.12/resolution-cache/reports/default-tabledriverscanner_2.12-test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/ivyConfiguration/$global/streams/out" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/ivyConfiguration/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/updateClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/updateClassifiers/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/updateSbtClassifiers/$global/streams/out" afterPath="$PROJECT_DIR$/../TableDriverScanner/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" afterPath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/PascalGrammar3.txt" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/PascalGrammar3.txt" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/config-classes/$01357a0a67a17e392a76$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/config-classes/$01357a0a67a17e392a76.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/config-classes/$01357a0a67a17e392a76.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/config-classes/$cdf9471540ce6a082463$.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/config-classes/$cdf9471540ce6a082463.cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/config-classes/$cdf9471540ce6a082463.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/default/pascalcompilerstartup-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/default/pascalcompilerstartup-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/default/pascalcompilerstartup-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/default/pascalcompilerstartup-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-compile-internal.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-compile.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-optional.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-plugin.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-pom.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-provided.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-runtime.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-scala-tool.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-test-internal.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-test.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-pascalcompilerstartup-build-test.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/exportedProducts/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/fullClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/project/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/src/main/scala/PascalParser.scala" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/src/main/scala/PascalParser.scala" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/.history" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/.history" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/classes/PascalParser$.class" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/classes/PascalParser$.class" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/pascalcompilerstartup_2.12-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/pascalcompilerstartup_2.12-0.1-SNAPSHOT.jar" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/default/pascalcompilerstartup_2.12/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/default/pascalcompilerstartup_2.12/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/default/pascalcompilerstartup_2.12/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/default/pascalcompilerstartup_2.12/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-compile-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-compile.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-compile.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-optional.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-optional.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-plugin.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-plugin.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-pom.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-pom.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-provided.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-provided.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-runtime-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-runtime.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-runtime.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-scala-tool.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-test-internal.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-test.xml" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/scala-2.12/resolution-cache/reports/default-pascalcompilerstartup_2.12-test.xml" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/$global/update/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compile/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/packageBin/$global/streams/out" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/compile/packageBin/$global/streams/output" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/exportedProductJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/../PascalCompilerStartup/target/streams/test/managedClasspath/$global/streams/export" />
+      <change beforePath="$PROJECT_DIR$/../TableDrivenParser/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_3_jar.xml" afterPath="$PROJECT_DIR$/../TableDrivenParser/.idea/libraries/SBT__org_scala_lang_scala_library_2_12_3_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/../TableDrivenParser/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TableDrivenParser/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,21 +117,11 @@
       <file leaf-file-name="FunctionalTextAnalysis.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="93" lean-forward="false" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+            <state relative-caret-position="369">
+              <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="top40.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/top40.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -147,10 +144,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-220" />
-    <option name="y" value="74" />
-    <option name="width" value="2330" />
-    <option name="height" value="1786" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,6 +165,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,10 +191,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,12 +251,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -293,6 +284,12 @@
       <envs />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
   </component>
   <component name="SbtLocalSettings">
@@ -342,12 +339,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -358,7 +355,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116077386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.115625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -368,11 +365,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -405,26 +402,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/top40.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/top40.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="93" lean-forward="false" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/top40.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/top40.txt" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

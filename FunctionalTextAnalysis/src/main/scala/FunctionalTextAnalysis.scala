@@ -16,18 +16,9 @@ class FunctionalTextAnalysis {
   def main(args: Array[String]): Unit = {
 
     //reads in the top40 file and splits it into a tuple3
-    val file = Source.fromFile("/src/main/top40.sql").getLines.map(line => line.split(" ' "))
-
-
-    //val file = Source.fromFile("src/main/top40.sql").getLines.map(word => word.split(" ' ").toList).toList
-    //file.foreach(line => println(line))
-
-    //creates the tuple3 to store the song information
-    /*
-    def createTuple3 (artist: List[String], song: List[String], num1: Int) = {
-
-    }
-    */
+    val file = Source.fromFile("/src/main/top40.sql").getLines.map(line => line.split(" ' ")).toList
+    val numone = file(4).map(line=>line.split("\\s+")).toList
+    val song = (file(1), file(3).map(line => line.split("\\s+")), if(numone(1)==0) false else true)
 
 
     /* used to see if I can read in
@@ -36,5 +27,31 @@ class FunctionalTextAnalysis {
   }
   */
 
+    //the multiplication function
+    def *(int1: Int, int2: Int): Int ={
+      val prod = int1 * int2
+      prod
+    }
+
+    // the division function
+    //should not work if the denominator is 0
+    def /( numer: Int, denom: Int) = {
+      if(denom!=0) {
+        val divide = numer / denom
+        divide
+      } else {
+        System.exit(0)
+      }
+    }
+
+    //the addition method
+    def +(int1: Int, int2: Int) = {
+      val sum = int1 + int2
+    }
+
+    //the subtraction method takes the second number from the first
+    def -(int1:Int, int2: Int) = {
+      val sub = int1 - int2
+    }
   }
 }
