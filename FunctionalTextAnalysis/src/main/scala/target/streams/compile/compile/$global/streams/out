@@ -1,4 +1,16 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:37:64: comparing values of types Array[String] and String using `==' will always yield false[0m
-[0m[[0m[33mwarn[0m] [0m[0m  val counter = nonTrivial.foreach(nTriv => lstSongs.foreach( _==nTriv))[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:30:13: not found: value numone[0m
+[0m[[0m[31merror[0m] [0m[0m    println(numone + " ")[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:31:24: not found: value numone[0m
+[0m[[0m[31merror[0m] [0m[0m    (artist, songName, numone)[0m
+[0m[[0m[31merror[0m] [0m[0m                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:37:45: value _1 is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m  val setArtist = file.map(record => record._1).toSet[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:38:44: value _2 is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m  val lstSongs = file.map(record => record._2)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:41:48: value contains is not a member of Nothing[0m
+[0m[[0m[31merror[0m] [0m[0m  val numSongs = lstSongs.count(song=> if(song.contains(nonTrivial)) true else false)[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

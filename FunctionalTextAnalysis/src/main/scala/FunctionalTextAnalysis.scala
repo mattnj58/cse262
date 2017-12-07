@@ -12,7 +12,7 @@ import scala.io.Source
 object FunctionalTextAnalysis extends App {
   val debug = true
   //the non-trivial words in the song name
-  val nonTrivial = List("LOVE", "ME", "IN", "CHIQUITITA")
+  val nonTrivial = List("LOVE", "ME")
   val artists = List("Elvis")
 
   //reads in the top40 file and splits it into a tuple3
@@ -20,23 +20,31 @@ object FunctionalTextAnalysis extends App {
     val ln = line.split("'").map(_.trim())
     val artist = ln(1)
     val songName = ln(3).split("\\s+")
-    val numone = (ln(4).charAt(0)).toInt
+    val numone = ln(4).charAt(2).toInt //prints out 32 for some reason, can't figure out why though
+
+    /* print statments to check my if I'm reading from the file correctly
+    songName.foreach(song=> print(song + " "))
+    println("\n")
     println(artist + " " + numone)
+    */
+
+    //counts how many words is in the song name which can be used
+    val songNum = songName.count(song => true)
+    //println(songNum) //prints songNum
+
+    //checks if the words in the song matches with the nont
+
     (artist, songName, numone)
   })
 
 
-
   //variable that contains the Set (a list of attributes that doesn't repeat) of artists and songs
   val setArtist = file.map(record => record._1).toSet
-  val numArt = setArtist.size
   val lstSongs = file.map(record => record._2)
-  val numSongs = lstSongs.length
 
-  //counts how many words that are in the nonTrivial list
-  val counter = nonTrivial.foreach(nTriv => lstSongs.foreach( _==nTriv))
-
-
+  //counts how many songs that are in the nonTrivial list
+  val numSongs = lstSongs.count(song=> if(song.contains(nonTrivial)) true else false)
+  //println(numSongs)
 
   //the multiplication function
   def *(int1: Int, int2: Int): Int ={

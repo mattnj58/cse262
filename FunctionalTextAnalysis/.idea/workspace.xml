@@ -2,75 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bff36dd-b290-45ed-91c7-8591f7827142" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$233b111972832410134d$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$233b111972832410134d.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$233b111972832410134d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8b6395af324802af0ae9$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8b6395af324802af0ae9.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$8b6395af324802af0ae9.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$afe11d63ac7f9ba5eb3d$.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$afe11d63ac7f9ba5eb3d.cache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$afe11d63ac7f9ba5eb3d.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/functionaltextanalysis-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/functionaltextanalysis-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/functionaltextanalysis-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/default/functionaltextanalysis-build/scala_2.12/sbt_1.0/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-compile.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-optional.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-plugin.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-pom.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-provided.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-runtime-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-runtime.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-scala-tool.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-test.xml" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-functionaltextanalysis-build-test.xml" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" afterPath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/.history" afterPath="$PROJECT_DIR$/src/main/scala/target/.history" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis$.class" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis$.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis.class" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis.class" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-optional.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-optional.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-plugin.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-plugin.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-pom.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-provided.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-provided.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-scala-tool.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test-internal.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/scala_2.12-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/scala_2.12-0.1-SNAPSHOT.jar" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compile/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncremental/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/dependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/exportedProductJars/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/managedClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/inputs" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/out" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/output" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/exportedProductJars/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis$.class" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis.class" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/classes/FunctionalTextAnalysis.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/scala_2.12-0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/scala_2.12-0.1-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncSetup/$global/streams/inc_compile_2.12.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" afterPath="$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/.history" afterPath="$PROJECT_DIR$/src/main/scala/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/default/scala_2.12/0.1-SNAPSHOT/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile-internal.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-optional.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-plugin.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-pom.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-provided.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime-internal.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-scala-tool.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test-internal.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test.xml" afterPath="$PROJECT_DIR$/src/main/scala/target/scala-2.12/resolution-cache/reports/default-scala_2.12-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compile/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compile/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/dependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/exportedProductJars/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/output" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/compile/packageBin/$global/streams/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/dependencyClasspathAsJars/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/exportedProductJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/exportedProductJars/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/fullClasspathAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/fullClasspathAsJars/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/internalDependencyAsJars/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/internalDependencyAsJars/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/src/main/scala/target/streams/runtime/managedClasspath/$global/streams/export" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -110,8 +79,21 @@
       <file leaf-file-name="FunctionalTextAnalysis.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="461">
+              <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Functional.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/code/code/src/main/scala/Functional.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-60">
+              <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -120,8 +102,8 @@
       <file leaf-file-name="top40.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/top40.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="81" lean-forward="false" selection-start-line="0" selection-start-column="81" selection-end-line="0" selection-end-column="81" />
+            <state relative-caret-position="42">
+              <caret line="6588" column="105" lean-forward="false" selection-start-line="6588" selection-start-column="105" selection-end-line="6588" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -143,6 +125,9 @@
       <projects_view />
     </option>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -151,10 +136,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="398" />
-    <option name="y" value="6" />
-    <option name="width" value="1327" />
-    <option name="height" value="1013" />
+    <option name="x" value="142" />
+    <option name="y" value="112" />
+    <option name="width" value="2214" />
+    <option name="height" value="1628" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -174,7 +159,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,29 +166,12 @@
               <item name="FunctionalTextAnalysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="FunctionalTextAnalysis" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="FunctionalTextAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FunctionalTextAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunctionalTextAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FunctionalTextAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunctionalTextAnalysis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FunctionalTextAnalysis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,13 +197,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
     <configuration name="FunctionalTextAnalysis" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FunctionalTextAnalysis" />
@@ -250,6 +210,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="functionaltextanalysis" />
       <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -285,6 +252,12 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -318,12 +291,6 @@
       <envs />
       <properties />
       <listeners />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <recent_temporary>
       <list size="1">
@@ -378,12 +345,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="398" y="6" width="1327" height="1013" extended-state="0" />
+    <frame x="71" y="56" width="1107" height="814" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -394,7 +360,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11823036" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10486177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -404,10 +370,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="sbt" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32853982" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -424,7 +391,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/code/code/src/main/scala/Functional.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/top40.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="84" lean-forward="false" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/top40.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="84" lean-forward="false" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/top40.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/top40.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="84" lean-forward="false" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="27" column="49" lean-forward="false" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -440,7 +531,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -448,7 +542,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,7 +553,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -464,7 +564,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -472,7 +575,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -482,7 +588,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -490,7 +599,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -498,7 +610,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -506,7 +621,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,7 +632,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -522,24 +643,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/top40.sql" />
+    <entry file="file://$USER_HOME$/Desktop/code/code/src/main/scala/Functional.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="38" column="2" lean-forward="false" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/top40.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="81" lean-forward="false" selection-start-line="0" selection-start-column="81" selection-end-line="0" selection-end-column="81" />
+        <state relative-caret-position="42">
+          <caret line="6588" column="105" lean-forward="false" selection-start-line="6588" selection-start-column="105" selection-end-line="6588" selection-end-column="105" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/FunctionalTextAnalysis.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="461">
+          <caret line="34" column="59" lean-forward="false" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1512686710790" expanded="true" signature="261:1523" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
