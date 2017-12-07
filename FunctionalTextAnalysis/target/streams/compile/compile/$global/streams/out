@@ -1,0 +1,4 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:38:64: comparing values of types Array[String] and String using `==' will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val counter = nonTrivial.foreach(nTriv => lstSongs.foreach( _==nTriv))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

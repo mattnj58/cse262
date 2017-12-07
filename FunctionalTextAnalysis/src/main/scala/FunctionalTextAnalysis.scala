@@ -10,25 +10,33 @@
 import scala.io.Source
 
 object FunctionalTextAnalysis extends App {
-
+  val debug = true
   //the non-trivial words in the song name
-  val nonTrivial = Array("LOVE", "ME", "IN", "CHIQUITITA")
+  val nonTrivial = List("LOVE", "ME", "IN", "CHIQUITITA")
+  val artists = List("Elvis")
 
   //reads in the top40 file and splits it into a tuple3
   val file = Source.fromFile("top40.txt").getLines.map(line => {
-    val ln = line.split("'")
+    val ln = line.split("'").map(_.trim())
     val artist = ln(1)
     val songName = ln(3).split("\\s+")
-    val numone = ln(4).charAt(2).toInt
+    val numone = (ln(4).charAt(0)).toInt
+    println(artist + " " + numone)
     (artist, songName, numone)
   })
 
-  //variable that contains the Set (a list of attributes that doesn't repeat) of artists and songs
-  val lstArtist = file.foreach(record => record._1)
-  val lstSongs = file.foreach(record => record._2)
 
-  //the count method that counts how many of something there is
-  //def counter()
+
+  //variable that contains the Set (a list of attributes that doesn't repeat) of artists and songs
+  val setArtist = file.map(record => record._1).toSet
+  val numArt = setArtist.size
+  val lstSongs = file.map(record => record._2)
+  val numSongs = lstSongs.length
+
+  //counts how many words that are in the nonTrivial list
+  val counter = nonTrivial.foreach(nTriv => lstSongs.foreach( _==nTriv))
+
+
 
   //the multiplication function
   def *(int1: Int, int2: Int): Int ={
@@ -56,4 +64,5 @@ object FunctionalTextAnalysis extends App {
   def -(int1:Int, int2: Int) = {
     val sub = int1 - int2
   }
+
 }
