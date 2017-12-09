@@ -9,3 +9,4 @@ clear
 run top40.txt
 clear
 clean
+run 

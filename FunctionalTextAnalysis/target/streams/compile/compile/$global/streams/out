@@ -1,4 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0mC:\Users\Matt Wong\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:38:64: comparing values of types Array[String] and String using `==' will always yield false[0m
-[0m[[0m[33mwarn[0m] [0m[0m  val counter = nonTrivial.foreach(nTriv => lstSongs.foreach( _==nTriv))[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:70:61: value _1 is not a member of List[(String, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m  orderedComboMeal.foreach(meal => println(orderedComboMeal._1 + " " + orderedComboMeal._2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mattw\Lehigh\cse262\cse262\FunctionalTextAnalysis\src\main\scala\FunctionalTextAnalysis.scala:70:89: value _2 is not a member of List[(String, Int)][0m
+[0m[[0m[31merror[0m] [0m[0m  orderedComboMeal.foreach(meal => println(orderedComboMeal._1 + " " + orderedComboMeal._2))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
